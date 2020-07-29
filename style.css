@@ -142,11 +142,10 @@ h2 {
   text-decoration: underline;
 }
 .imagem {
-  width: 100%;
+  clip-path: polygon(25% 0%, 100% 20%, 89% 82%, 18% 91%, 0 46%);
   height: 300px;
   object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  width: 100%;
 }
 #rodape{
   align-items: center;
